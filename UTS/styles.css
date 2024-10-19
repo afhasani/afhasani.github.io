@@ -1,4 +1,3 @@
-/* General styles for all pages */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,6 +14,12 @@ p {
 ul {
     text-decoration: none;
     padding-inline-start: 0;
+}
+
+.logo{
+    width: 100%;
+    border-radius: 10px;
+    display: inline;
 }
 
 .nolan_pict img {
@@ -71,16 +76,15 @@ main {
 footer {
     background-color: #333;
     color: white;
-    text-align: right; /* Memindahkan teks ke sisi kanan */
+    text-align: right;
     padding: 10px 20px;
-    position: fixed; /* Membuat footer tetap di bawah dan di kanan */
+    position: fixed;
     bottom: 0;
     right: 0;
-    width: 100%; /* Lebar penuh pada layar kecil */
-    height: auto; /* Tinggi menyesuaikan konten pada layar kecil */
+    width: 100%;
+    height: auto;
 }
 
-/* Style for form elements */
 input[type="text"], input[type="email"], input[type="date"] {
     width: 100%;
     padding: 8px;
@@ -113,14 +117,13 @@ form label {
     margin-top: 10px;
 }
 
-/* Navbar samping */
 .navbar-samping {
-    height: 100vh; /* Tinggi navbar sesuai tinggi viewport */
-    position: fixed; /* Membuatnya tetap berada di samping saat di-scroll */
+    height: 100vh; 
+    position: fixed;
     top: 0;
     left: 0;
-    width: 235px; /* Lebar navbar */
-    background-color: #343a40; /* Warna background navbar */
+    width: 235px;
+    background-color: #343a40;
     padding: 20px 15px;
     box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -134,7 +137,7 @@ form label {
 }
 
 .navbar-samping a:hover {
-    background-color: #495057; /* Warna background saat dihover */
+    background-color: #495057;
 }
 
 .navbar-samping h4 {
@@ -145,7 +148,6 @@ form label {
     padding-bottom: 10px;
 }
 
-/* Main content */
 .main-content {
     margin-right: 235px;
     padding: 20px;
@@ -154,7 +156,7 @@ form label {
 }
 
 .main-content_2 {
-    margin-left: 235px; /* Spasi kiri untuk mengakomodasi lebar navbar */
+    margin-left: 235px;
     padding: 20px;
     margin-right: 235px;
     padding-top: 0;
@@ -211,7 +213,6 @@ thead, tbody tr {
     transition: 0.3s;
 }
 
-/* Responsif untuk layar kecil */
 @media (max-width: 576px) {
     header{
         margin-top: 10px;
