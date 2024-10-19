@@ -6,6 +6,7 @@
     <title itemprop="name">Favorite Nolan Film - Contact Form</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar-samping d-flex flex-column p-3">
@@ -24,23 +25,20 @@
             </li>
         </ul>
     </nav>
-
     <div class="main-content">
         <header>
             <h1 itemprop="headline">Christopher Nolan - Share Your Favorite Film</h1>
         </header>
-        <div class="box container-sm">
-            <form action="submit" method="GET" style="margin-top: 20px;" itemscope itemtype="https://schema.org/Questionnaire">
+        <div class="box container-sm" data-aos="zoom-in" data-aos-duration="1000">
+            <form action="submit" method="GET" style="margin-top: 20px;">
                 <div class="mb-3" itemscope itemtype="https://schema.org/Person">
                     <label for="name" class="form-label">Name:</label>
                     <input type="text" class="form-control" id="name" name="name" required itemprop="name">
                 </div>
-
                 <div class="mb-3">
                     <label for="email" class="form-label">Email:</label>
                     <input type="email" class="form-control" id="email" name="email" required itemprop="email">
                 </div>
-
                 <div class="mb-3" itemscope itemtype="https://schema.org/CreativeWork">
                     <label for="movie" class="form-label">Favorite Nolan Movie:</label>
                     <input type="text" class="form-control" id="movie" name="movie" list="movies" required itemprop="name">
@@ -57,17 +55,14 @@
                         <option value="Following">Following</option>
                     </datalist>
                 </div>
-
                 <div class="mb-3">
-                    <label for="year" class="form-label">Year You Watched It:</label>
-                    <input type="date" class="form-control" id="year" name="year" itemprop="datePublished">
+                    <label for="date" class="form-label">Date You Watched It:</label>
+                    <input type="date" class="date" id="year" name="date">
                 </div>
-
                 <div class="mb-3">
                     <label for="review" class="form-label">Your Review:</label>
-                    <textarea type="text" class="form-control" id="review" name="review" itemprop="review"></textarea>
+                    <textarea class="form-control" id="review" name="review" itemprop="review"></textarea>
                 </div>
-
                 <div class="mb-3">
                     <label for="rating" class="form-label">Rate the Movie (1-10):</label><br>
                     <input type="radio" id="rating1" name="rating" value="1" itemprop="ratingValue"> 1
@@ -81,13 +76,19 @@
                     <input type="radio" id="rating9" name="rating" value="9" itemprop="ratingValue"> 9
                     <input type="radio" id="rating10" name="rating" value="10" itemprop="ratingValue"> 10
                 </div>
-
                 <button type="submit" class="btn btn-primary" itemprop="action">Submit</button>
             </form>
         </div>
         <footer>
             <p>&copy; 2024 Christopher Nolan Fan Page</p>
+            <p>Ahmad Faqih Hasani</p>
+            <p>122140005</p>
+        </footer>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
