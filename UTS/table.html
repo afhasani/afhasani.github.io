@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar-samping d-flex flex-column p-3">
-        <h4 class="text-white">Christopher Nolan</h4>
+        <h4 class="text-white p-name" itemprop="name">Christopher Nolan</h4>
         <ul class="nav flex-column">
             <li class="nav-item mb-2">
                 <a href="index.html" class="nav-link">Home</a>
@@ -24,9 +24,9 @@
         </ul>
     </nav>
 
-    <div class="main-content conntainer-sm">
+    <div class="main-content container-sm">
         <header>
-            <h1>Christopher Nolan's Career</h1>
+            <h1 class="p-name">Christopher Nolan's Career</h1>
         </header>
         <h3 class="text-center" style="margin-top: 20px;">Movies Directed</h3>
         <table data-aos="zoom-in" data-aos-duration="1000">
@@ -39,399 +39,404 @@
                 </tr>
             </thead>
             <tbody>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2000</td>
-                    <td itemprop="name">Memento</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2000</td>
+                    <td class="p-name" itemprop="name">Memento</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2002</td>
-                    <td itemprop="name">Insomnia</td>
-                    <td itemprop="genre">Drama</td><td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2002</td>
+                    <td class="p-name" itemprop="name">Insomnia</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2005</td>
-                    <td itemprop="name">Batman Begins</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2005</td>
+                    <td class="p-name" itemprop="name">Batman Begins</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.2</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2010</td>
-                    <td itemprop="name">Inception</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2010</td>
+                    <td class="p-name" itemprop="name">Inception</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.8</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2014</td>
-                    <td itemprop="name">Interstellar</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.6</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2014</td>
+                    <td class="p-name" itemprop="name">Interstellar</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.6</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2020</td>
-                    <td itemprop="name">Tenet</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2020</td>
+                    <td class="p-name" itemprop="name">Tenet</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2017</td>
-                    <td itemprop="name">Dunkirk</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2017</td>
+                    <td class="p-name" itemprop="name">Dunkirk</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2012</td>
-                    <td itemprop="name">The Dark Knight Rises</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2012</td>
+                    <td class="p-name" itemprop="name">The Dark Knight Rises</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2008</td>
-                    <td itemprop="name">The Dark Knight</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">9.0</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2008</td>
+                    <td class="p-name" itemprop="name">The Dark Knight</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">9.0</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">1998</td>
-                    <td itemprop="name">Following</td>
-                    <td itemprop="genre">Crime</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">1998</td>
+                    <td class="p-name" itemprop="name">Following</td>
+                    <td class="p-genre" itemprop="genre">Crime</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2000</td>
-                    <td itemprop="name">Memento</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2000</td>
+                    <td class="p-name" itemprop="name">Memento</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2002</td>
-                    <td itemprop="name">Insomnia</td>
-                    <td itemprop="genre">Drama</td><td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2002</td>
+                    <td class="p-name" itemprop="name">Insomnia</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2005</td>
-                    <td itemprop="name">Batman Begins</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2005</td>
+                    <td class="p-name" itemprop="name">Batman Begins</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.2</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2010</td>
-                    <td itemprop="name">Inception</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2010</td>
+                    <td class="p-name" itemprop="name">Inception</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.8</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2014</td>
-                    <td itemprop="name">Interstellar</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.6</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2014</td>
+                    <td class="p-name" itemprop="name">Interstellar</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.6</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2020</td>
-                    <td itemprop="name">Tenet</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2020</td>
+                    <td class="p-name" itemprop="name">Tenet</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2017</td>
-                    <td itemprop="name">Dunkirk</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2017</td>
+                    <td class="p-name" itemprop="name">Dunkirk</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2012</td>
-                    <td itemprop="name">The Dark Knight Rises</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2012</td>
+                    <td class="p-name" itemprop="name">The Dark Knight Rises</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2008</td>
-                    <td itemprop="name">The Dark Knight</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">9.0</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2008</td>
+                    <td class="p-name" itemprop="name">The Dark Knight</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">9.0</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">1998</td>
-                    <td itemprop="name">Following</td>
-                    <td itemprop="genre">Crime</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">1998</td>
+                    <td class="p-name" itemprop="name">Following</td>
+                    <td class="p-genre" itemprop="genre">Crime</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2000</td>
-                    <td itemprop="name">Memento</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2000</td>
+                    <td class="p-name" itemprop="name">Memento</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2002</td>
-                    <td itemprop="name">Insomnia</td>
-                    <td itemprop="genre">Drama</td><td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2002</td>
+                    <td class="p-name" itemprop="name">Insomnia</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2005</td>
-                    <td itemprop="name">Batman Begins</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2005</td>
+                    <td class="p-name" itemprop="name">Batman Begins</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.2</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2010</td>
-                    <td itemprop="name">Inception</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2010</td>
+                    <td class="p-name" itemprop="name">Inception</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.8</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2014</td>
-                    <td itemprop="name">Interstellar</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.6</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2014</td>
+                    <td class="p-name" itemprop="name">Interstellar</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.6</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2020</td>
-                    <td itemprop="name">Tenet</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2020</td>
+                    <td class="p-name" itemprop="name">Tenet</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2017</td>
-                    <td itemprop="name">Dunkirk</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2017</td>
+                    <td class="p-name" itemprop="name">Dunkirk</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2012</td>
-                    <td itemprop="name">The Dark Knight Rises</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2012</td>
+                    <td class="p-name" itemprop="name">The Dark Knight Rises</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2008</td>
-                    <td itemprop="name">The Dark Knight</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">9.0</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2008</td>
+                    <td class="p-name" itemprop="name">The Dark Knight</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">9.0</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">1998</td>
-                    <td itemprop="name">Following</td>
-                    <td itemprop="genre">Crime</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">1998</td>
+                    <td class="p-name" itemprop="name">Following</td>
+                    <td class="p-genre" itemprop="genre">Crime</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2000</td>
-                    <td itemprop="name">Memento</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2000</td>
+                    <td class="p-name" itemprop="name">Memento</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2002</td>
-                    <td itemprop="name">Insomnia</td>
-                    <td itemprop="genre">Drama</td><td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2002</td>
+                    <td class="p-name" itemprop="name">Insomnia</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2005</td>
-                    <td itemprop="name">Batman Begins</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2005</td>
+                    <td class="p-name" itemprop="name">Batman Begins</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.2</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2010</td>
-                    <td itemprop="name">Inception</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2010</td>
+                    <td class="p-name" itemprop="name">Inception</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.8</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2014</td>
-                    <td itemprop="name">Interstellar</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.6</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2014</td>
+                    <td class="p-name" itemprop="name">Interstellar</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.6</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2020</td>
-                    <td itemprop="name">Tenet</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2020</td>
+                    <td class="p-name" itemprop="name">Tenet</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2017</td>
-                    <td itemprop="name">Dunkirk</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2017</td>
+                    <td class="p-name" itemprop="name">Dunkirk</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2012</td>
-                    <td itemprop="name">The Dark Knight Rises</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2012</td>
+                    <td class="p-name" itemprop="name">The Dark Knight Rises</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2008</td>
-                    <td itemprop="name">The Dark Knight</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">9.0</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2008</td>
+                    <td class="p-name" itemprop="name">The Dark Knight</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">9.0</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">1998</td>
-                    <td itemprop="name">Following</td>
-                    <td itemprop="genre">Crime</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">1998</td>
+                    <td class="p-name" itemprop="name">Following</td>
+                    <td class="p-genre" itemprop="genre">Crime</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2000</td>
-                    <td itemprop="name">Memento</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2000</td>
+                    <td class="p-name" itemprop="name">Memento</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2002</td>
-                    <td itemprop="name">Insomnia</td>
-                    <td itemprop="genre">Drama</td><td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2002</td>
+                    <td class="p-name" itemprop="name">Insomnia</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2005</td>
-                    <td itemprop="name">Batman Begins</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.2</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2005</td>
+                    <td class="p-name" itemprop="name">Batman Begins</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.2</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2010</td>
-                    <td itemprop="name">Inception</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2010</td>
+                    <td class="p-name" itemprop="name">Inception</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.8</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2014</td>
-                    <td itemprop="name">Interstellar</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.6</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2014</td>
+                    <td class="p-name" itemprop="name">Interstellar</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.6</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2020</td>
-                    <td itemprop="name">Tenet</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2020</td>
+                    <td class="p-name" itemprop="name">Tenet</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2017</td>
-                    <td itemprop="name">Dunkirk</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.8</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2017</td>
+                    <td class="p-name" itemprop="name">Dunkirk</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2012</td>
-                    <td itemprop="name">The Dark Knight Rises</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2012</td>
+                    <td class="p-name" itemprop="name">The Dark Knight Rises</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">2008</td>
-                    <td itemprop="name">The Dark Knight</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">9.0</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">2008</td>
+                    <td class="p-name" itemprop="name">The Dark Knight</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">9.0</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
-                    <td itemprop="datePublished">1998</td>
-                    <td itemprop="name">Following</td>
-                    <td itemprop="genre">Crime</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                <tr class="h-entry">
+                    <td class="p-date" itemprop="datePublished">1998</td>
+                    <td class="p-name" itemprop="name">Following</td>
+                    <td class="p-genre" itemprop="genre">Crime</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
             </tbody>
@@ -441,102 +446,97 @@
             <thead>
                 <tr>
                     <th>Rank</th>
-                    <th>Year</th>
                     <th>Film Title</th>
+                    <th>Genre</th>
                     <th>IMDB Rating</th>
                 </tr>
             </thead>
             <tbody>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>1</td>
-                    <td itemprop="name">The Dark Knight Rises</td>
-                    <td itemprop="genre">Thriller</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                    <td class="p-name" itemprop="name">The Dark Knight Rises</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>2</td>
-                    <td itemprop="name">The Dark Knight</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">9.0</span>
+                    <td class="p-name" itemprop="name">The Dark Knight</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">9.0</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>3</td>
-                    <td itemprop="name">Inception</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.8</span>
+                    <td class="p-name" itemprop="name">Inception</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>4</td>
-                    <td itemprop="name">Interstellar</td>
-                    <td itemprop="genre">Sci-Fi</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.7</span>
+                    <td class="p-name" itemprop="name">Interstellar</td>
+                    <td class="p-genre" itemprop="genre">Sci-Fi</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.6</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>5</td>
-                    <td itemprop="name">Dunkirk</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.8</span>
+                    <td class="p-name" itemprop="name">Dunkirk</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.8</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>6</td>
-                    <td itemprop="name">Batman Begins</td>
-                    <td itemprop="genre">Action</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.2</span>
+                    <td class="p-name" itemprop="name">Tenet</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>7</td>
-                    <td itemprop="name">Insomnia</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.2</span>
+                    <td class="p-name" itemprop="name">Batman Begins</td>
+                    <td class="p-genre" itemprop="genre">Action</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>8</td>
-                    <td itemprop="name">The Prestige</td>
-                    <td itemprop="genre">Drama</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.5</span>
+                    <td class="p-name" itemprop="name">Memento</td>
+                    <td class="p-genre" itemprop="genre">Thriller</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">8.4</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>9</td>
-                    <td itemprop="name">Memento</td>
-                    <td itemprop="genre">Mystery</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">8.4</span>
+                    <td class="p-name" itemprop="name">Insomnia</td>
+                    <td class="p-genre" itemprop="genre">Drama</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.2</span>
                     </td>
                 </tr>
-                <tr itemscope itemtype="https://schema.org/Movie">
+                <tr class="h-entry">
                     <td>10</td>
-                    <td itemprop="name">Following</td>
-                    <td itemprop="genre">Crime</td>
-                    <td itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                        <span itemprop="ratingValue">7.4</span>
+                    <td class="p-name" itemprop="name">Following</td>
+                    <td class="p-genre" itemprop="genre">Crime</td>
+                    <td class="p-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                        <span class="p-ratingValue" itemprop="ratingValue">7.4</span>
                     </td>
                 </tr>
-                
             </tbody>
         </table>
-        <footer>
-            <p>&copy; 2024 Christopher Nolan Fan Page</p>
-            <p>Ahmad Faqih Hasani</p>
-            <p>122140005</p>
-        </footer>
-        </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybMZ38CkL38aZL00ip8L8WyOzP7txkVvELO4fJoB7Zfj8g9zG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-6Kge69YHR8Wz5H6nZ/nFzQn/Yfmxq41d4J9yMSD4c8TF+ZT5qGbyczW3MoWkq3i3" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
