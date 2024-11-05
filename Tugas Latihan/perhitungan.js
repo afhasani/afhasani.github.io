@@ -15,15 +15,15 @@ tombolHitung.addEventListener('click', function() {
 		document.getElementById('result').innerText = "Input harus berupa angka dan bernilai 0 - 100";
 		return;
 	}
-    // Memperbaharui letiabel nilai dengan nilai asli dikali dengan bobot
-    nilaiTugas = nilaiTugas * bobotTugas;
-    nilaiUTS = nilaiUTS * bobotUTS;
-    nilaiUAS = nilaiUAS * bobotUAS;
+	// Memperbaharui letiabel nilai dengan nilai asli dikali dengan bobot
+	nilaiTugas = nilaiTugas * bobotTugas;
+	nilaiUTS = nilaiUTS * bobotUTS;
+	nilaiUAS = nilaiUAS * bobotUAS;
 	// Hitung total niilai
 	let totalNilai = nilaiTugas + nilaiUTS + nilaiUAS;
 	// Tentukan huruf mutu dan status berdasarkan total nilai
 	let hurufMutu;
-    let status = 'Lulus'; //Nilai awal lulus, jika nilai dibawah 60 akan diubah menjadi gagal.
+    	let status = 'Lulus'; //Nilai awal lulus, jika nilai dibawah 60 akan diubah menjadi gagal.
 	const batasLulus = 60;
 	if (totalNilai < batasLulus) {
 		hurufMutu = 'E';
@@ -39,11 +39,11 @@ tombolHitung.addEventListener('click', function() {
 	}
 	// Tampilkan hasil di bagian result
 	document.getElementById('result').innerHTML = `
-    <p>Nilai Tugas : ${nilaiTugas}</p>
-    <p>Nilai UTS: ${nilaiUTS}</P>
-    <p>Nilai UAS: ${nilaiUAS}</P>
-    <p>Rerata Tertimbang Akhir: ${totalNilai.toFixed(2)}</p>
-    <p>Huruf Mutu: ${hurufMutu}</p>
-    <p class="${status}">Status: ${status}</p>
-    `;
+	<p>Nilai Tugas : ${nilaiTugas}</p>
+	<p>Nilai UTS: ${nilaiUTS}</P>
+	<p>Nilai UAS: ${nilaiUAS}</P>
+	<p>Rerata Tertimbang Akhir: ${totalNilai.toFixed(2)}</p>
+	<p>Huruf Mutu: ${hurufMutu}</p>
+	<p class="${status}">Status: ${status}</p>
+	`;
 });
