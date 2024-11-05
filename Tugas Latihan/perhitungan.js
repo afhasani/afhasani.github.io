@@ -11,7 +11,7 @@ tombolHitung.addEventListener('click', function() {
 	let nilaiUTS = parseFloat(document.getElementById('uts').value);
 	let nilaiUAS = parseFloat(document.getElementById('uas').value);
 	// Validasi input agar hanya diisi angka dan berada dalam rentang 0 - 100
-	if(isNaN(nilaiTugas) || isNaN(nilaiUTS) || isNaN(nilaiUAS) || nilaiTugas < 0 || nilaiTugas > 100 || nilaiUTS < 0 || nilaiUTS > 100 || nilaiUAS < 0 || nilaiUAS > 100) {
+	if(isNaN(nilaiTugas) || isNaN(nilaiUTS) || isNaN(nilaiUAS) || 100 < nilaiTugas < 0 || nilaiUTS < 0 || nilaiUTS > 100 || nilaiUAS < 0 || nilaiUAS > 100) {
 		document.getElementById('result').innerText = "Input harus berupa angka dan bernilai 0 - 100";
 		return;
 	}
